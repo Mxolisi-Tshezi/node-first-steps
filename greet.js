@@ -1,6 +1,10 @@
-module.exports = function greet(name){
+// module.exports = function greet(name){
 
-    return "Hello, "+name
-}
-var msg =greet("Xola")
-console.log(msg)
+//     return "Hello, "+name
+// }
+// export default greet
+
+const greet = name => `Hello, ${name}`
+
+export default greet
+
